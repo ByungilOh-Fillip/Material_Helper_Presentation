@@ -17,7 +17,7 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
-  base: '/Material_Helper_Presentation/', // ← 레포 이름
+  base: '/Material_Helper_Presentation/', 
 
   plugins: [
     figmaAssetResolver(),
@@ -33,3 +33,4 @@ export default defineConfig({
 
   assetsInclude: ['**/*.svg', '**/*.csv'],
 })
+
